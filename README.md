@@ -1,2 +1,2 @@
 # JumpingPistachio.github.io
-My website on githuib
+My website on github
