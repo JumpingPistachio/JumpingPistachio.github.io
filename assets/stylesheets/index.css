@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 :root {
-    --floofy-black: #1E1E1E;
+    --floofy-black: #1f1f1f;
     --floofy-white: #FaFaFa;
+    --void-black: #191919;
 }
 
 body {
@@ -28,10 +29,32 @@ a {
     text-decoration-style: dotted;
     text-underline-offset: 1mm;
 }
+.div-header {
+    overflow: hidden;
+    background-color: var(--void-black);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: xx-large;
+    font-weight: 400;
+}
+.div-header a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.div-header a:hover {
+    background-color: var(--floofy-white);
+    color: var(--floofy-black);
+}
+
 .TITLE {
     font-family: 'Merienda', sans-serif;
 }
 .ABOUT_ME {
+    margin-top: 120px;
     font-family: 'Merienda', sans-serif;
     text-decoration: underline;
     text-decoration-style: dotted;
