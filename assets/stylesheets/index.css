@@ -12,6 +12,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     font-weight: 300;
+    /* Background Image Stuff (Scales Image) */
     background: url('../background1.svg') no-repeat center center fixed;
     background-size:cover;
     -webkit-background-size: cover;
