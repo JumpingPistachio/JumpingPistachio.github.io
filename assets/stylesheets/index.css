@@ -12,11 +12,13 @@ body {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     font-weight: 300;
-    background-image: url('../background1.svg');
+    background: url('../background1.svg') no-repeat center center fixed;
     background-size:cover;
-    background-repeat: no-repeat;
-    width: auto;
-    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 
 }
 .TITLE {
