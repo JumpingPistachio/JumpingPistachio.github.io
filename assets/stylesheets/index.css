@@ -22,8 +22,18 @@ body {
 
 
 }
+a {
+    color: var(--floofy-white);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 12%;
+}
 .TITLE {
     font-family: 'Merienda', sans-serif;
+}
+.NOTE {
+    font-style: italic;
+    font-weight: 400;
 }
 .ParagraphThing{
     font-size: larger;
