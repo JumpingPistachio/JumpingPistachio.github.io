@@ -26,32 +26,15 @@ body {
 a {
     color: var(--floofy-white);
     text-decoration: underline;
-    text-decoration-style: dotted;
+    text-decoration-style: solid;
     text-underline-offset: 1mm;
 }
-.div-header {
-    overflow: hidden;
-    background-color: var(--void-black);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    font-size: xx-large;
-    font-weight: 400;
-}
-.div-header a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.div-header a:hover {
-    background-color: var(--floofy-white);
-    color: var(--floofy-black);
-}
-
 .TITLE {
     font-family: 'Merienda', sans-serif;
+}
+.LINKTOCONTENTS {
+    font-size: large;
+    font-weight: 300;
 }
 .ABOUT_ME {
     margin-top: 120px;
