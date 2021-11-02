@@ -46,6 +46,18 @@ a {
 .PARAGRAPH_THING{
     font-size: larger;
 }
+.IMAGE_25{
+    width: 25%;
+    height: 25%;
+    margin: 4px;
+    border-radius: 10px;
+}
+.FLEX {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
 .LIST-1 {
     font-size: x-large;
     text-align: left;
@@ -69,4 +81,7 @@ a {
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
+}
+.bg_onecolor {
+    background: var(--floofy-black);
 }
