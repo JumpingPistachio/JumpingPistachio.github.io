@@ -88,3 +88,57 @@ a {
 .bg_onecolor {
     background: var(--floofy-black);
 }
+/* Animation Stuff */
+
+.css_logo_svg {
+    width: 25%;
+    height: 25%;
+    position: relative;
+    animation: css_logo_svg 1000ms infinite;
+}
+
+@keyframes css_logo_svg {
+    0% {
+        width: 1%;
+    }
+    5% {
+        width: 5%;
+    }
+    10% {
+        width: 10%;
+    }
+    15% {
+        width: 15%;
+    }
+    20% {
+        width: 20%;
+    }
+    25% {
+        width: 25%;
+    }
+    26% {
+        width: 25%;
+    }
+    27% {
+        width: 25%;
+    }
+    28% {
+        width: 25%;
+    }
+    30% {
+        width: 20%;
+    }
+    35% {
+        width: 15%;
+    }
+    40% {
+        width: 10%;
+    }
+    45% {
+        width: 5%;
+    }
+    50% {
+        width: 1%;
+    }
+
+}
