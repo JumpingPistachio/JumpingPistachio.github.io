@@ -31,6 +31,11 @@ a {
     font-size: large;
     font-weight: 300;
 }
+.BTN {
+    background-color: var(--void-black);
+    color: var(--floofy-white);
+    margin: auto;
+}
 .ABOUT_ME {
     margin-top: 120px;
     font-family: 'Merienda', sans-serif;
