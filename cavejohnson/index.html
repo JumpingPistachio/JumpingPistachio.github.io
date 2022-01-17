@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./scuffed.css">
+    <title>Vue Go Brrr</title>
+</head>
+<body>
+    <!-- Root Element -->
+    <div id="root">
+        <img class="profile-picture" :src="profilePicture" alt="">
+        <h1>Hello, {{firstName}} {{lastName}}!</h1>
+        <p>{{lemonRant}}</p>
+    </div>
+
+    <!-- Import Vue -->
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <!-- Run App Script -->
+    <script src="./App.js"></script>
+</body>
+</html>
