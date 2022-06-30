@@ -1,6 +1,6 @@
 # Navigation
 
 ## Main Navigation
-- [Main](../)
+- [Main](https://jumpingpistachio.github.io/)
 
 ## Other Navigation
